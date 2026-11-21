@@ -1,0 +1,2058 @@
+{
+  "meta": {
+    "name": "Circle of Truth",
+    "subtitle": "A conversation beyond the noise.",
+    "projectType": "Fictional stylized-3D animated YouTube roundtable",
+    "lastCurated": "2026-11-20",
+    "status": "Pre-production / cast & concept development",
+    "publicDisclosure": "A fictional animated series. The portrayed people and historical or spiritual figures are imaginative representations. Dialogue, events and voices are invented or AI-assisted; they do not depict real meetings or statements, and no endorsement is implied."
+  },
+  "themes": [
+    "truth",
+    "power",
+    "leadership",
+    "compassion",
+    "fear",
+    "responsibility",
+    "love",
+    "healing",
+    "legacy",
+    "storytelling"
+  ],
+  "collections": [
+    {
+      "id": "pilot-cast",
+      "title": "Foundational Roundtable Cast",
+      "short": "The first story world",
+      "sector": "Spiritual / Politics",
+      "status": "development",
+      "artwork": "",
+      "people": [
+        "Jesus",
+        "Barack Obama",
+        "Donald Trump",
+        "Elon Musk",
+        "Siddhartha Gautama (Buddha)"
+      ],
+      "notes": "P0 production cast: Jesus, Obama, Trump. Elon Musk and Buddha are follow-up candidates. Five-person set; not a 10-person approved poster.",
+      "count": 5
+    },
+    {
+      "id": "global-iii",
+      "title": "Global Influence III",
+      "short": "World Leaders, Governments & Global Institutions",
+      "sector": "Global Influence",
+      "status": "artwork-created",
+      "artwork": "circle_of_truth_global_leaders.png",
+      "people": [
+        "Pope Leo XIV",
+        "Claudia Sheinbaum",
+        "Benjamin Netanyahu",
+        "Sanae Takaichi",
+        "Ursula von der Leyen",
+        "Giorgia Meloni",
+        "Javier Milei",
+        "Luiz Inácio Lula da Silva",
+        "Recep Tayyip Erdoğan",
+        "King Charles III"
+      ],
+      "notes": "Image created and acknowledged positively. Titles reflect the original planning conversation and should be rechecked before publication.",
+      "count": 10
+    },
+    {
+      "id": "global-iv",
+      "title": "Global Influence IV",
+      "short": "Corporate Empires, AI, Finance & Media",
+      "sector": "Global Influence",
+      "status": "artwork-created",
+      "artwork": "circle_of_truth_global_influence_iv.png",
+      "people": [
+        "Dario Amodei",
+        "Jimmy Donaldson (MrBeast)",
+        "Neal Mohan",
+        "Aliko Dangote",
+        "Kenneth C. Griffin",
+        "Abigail P. Johnson",
+        "Carlos Slim Helú",
+        "Gautam Adani",
+        "Amancio Ortega",
+        "Ma Huateng (Pony Ma)"
+      ],
+      "notes": "Image rendered in original Tree of Life framework; titles need fact-check before release.",
+      "count": 10
+    },
+    {
+      "id": "hollywood-legends-i",
+      "title": "Hollywood Legends I",
+      "short": "Cinema Icons Across Generations",
+      "sector": "Hollywood",
+      "status": "approved-artwork",
+      "artwork": "hollywood_legends_beneath_the_tree_of_life.png",
+      "people": [
+        "Meryl Streep",
+        "Robert De Niro",
+        "Al Pacino",
+        "Samuel L. Jackson",
+        "Harrison Ford",
+        "Arnold Schwarzenegger",
+        "Keanu Reeves",
+        "Julia Roberts",
+        "Morgan Freeman",
+        "Jackie Chan"
+      ],
+      "notes": "User explicitly praised this render. Preserve as the style reference for future Hollywood cast sheets.",
+      "count": 10
+    },
+    {
+      "id": "hollywood-superstars-ii",
+      "title": "Hollywood Influence II",
+      "short": "Modern Hollywood Superstars",
+      "sector": "Hollywood",
+      "status": "needs-correct-image",
+      "artwork": "",
+      "people": [
+        "Scarlett Johansson",
+        "Robert Downey Jr.",
+        "Adam Sandler",
+        "Margot Robbie",
+        "Ryan Reynolds",
+        "Timothée Chalamet",
+        "Tom Holland",
+        "Florence Pugh",
+        "Millie Bobby Brown",
+        "Pedro Pascal"
+      ],
+      "notes": "LOCKED ROSTER. Attempts repeatedly generated unrelated people or were rejected. No approved image; do not substitute the wrong-roster images.",
+      "count": 10
+    },
+    {
+      "id": "hollywood-power-iii",
+      "title": "Entertainment Industry Power",
+      "short": "Storytellers & Power Brokers",
+      "sector": "Hollywood",
+      "status": "artwork-created",
+      "artwork": "circle_of_truth_entertainment_power_brokers.png",
+      "people": [
+        "Steven Spielberg",
+        "George Lucas",
+        "James Cameron",
+        "Christopher Nolan",
+        "Kevin Feige",
+        "James Gunn",
+        "Jerry Bruckheimer",
+        "David Ellison",
+        "Ted Sarandos",
+        "Donna Langley"
+      ],
+      "notes": "Image was generated for List 3; production team should verify text and likenesses before approval.",
+      "count": 10
+    },
+    {
+      "id": "music-icons-iv",
+      "title": "Music & Cultural Influence",
+      "short": "Music Legends & Cultural Icons",
+      "sector": "Music",
+      "status": "needs-correct-image",
+      "artwork": "",
+      "people": [
+        "Paul McCartney",
+        "Mick Jagger",
+        "Keith Richards",
+        "Madonna",
+        "Bruce Springsteen",
+        "Cher",
+        "Dolly Parton",
+        "Elton John",
+        "Stevie Wonder",
+        "Céline Dion"
+      ],
+      "notes": "Locked 10-name roster. Prior attempts generated actors instead and must not be treated as approved Music IV artwork.",
+      "count": 10
+    },
+    {
+      "id": "masons-living-i",
+      "title": "Living Freemasons I",
+      "short": "Public figures and reported members",
+      "sector": "Freemasonry",
+      "status": "reference-artwork",
+      "artwork": "",
+      "people": [
+        "Steve Wozniak",
+        "Buzz Aldrin",
+        "Prince Edward, Duke of Kent",
+        "Kweisi Mfume",
+        "Michael Richards",
+        "Richard Dreyfuss",
+        "Brad Paisley",
+        "Rick Wakeman",
+        "James G. Martin",
+        "Shaquille O'Neal"
+      ],
+      "notes": "Roster cited during earlier planning. Historical and living Masonic affiliations require careful primary-source verification; do not present unverified private membership claims as facts.",
+      "count": 10
+    },
+    {
+      "id": "masons-living-ii",
+      "title": "Living Freemasons II",
+      "short": "Public figures and organizational leadership",
+      "sector": "Freemasonry",
+      "status": "artwork-created",
+      "artwork": "a_cinematic_hyper_detailed_photoreal_composite_p.png",
+      "people": [
+        "Al Sharpton",
+        "Prince Michael of Kent",
+        "John Elway",
+        "Andrew Young",
+        "L. Douglas Wilder",
+        "Roland Burris",
+        "Ras J. Baraka",
+        "James D. Cole",
+        "Jonathan Spence",
+        "Ara Maloyan"
+      ],
+      "notes": "Stylized Masonic regalia is artistic, not authenticated uniform. Membership and organizational titles must be verified individually before factual publication.",
+      "count": 10
+    },
+    {
+      "id": "masons-historical",
+      "title": "Historical Freemasons",
+      "short": "Prominent deceased personalities",
+      "sector": "Freemasonry",
+      "status": "needs-correct-image",
+      "artwork": "",
+      "people": [
+        "George Washington",
+        "Benjamin Franklin",
+        "Theodore Roosevelt",
+        "Franklin D. Roosevelt",
+        "Harry S. Truman",
+        "J. Edgar Hoover",
+        "Wolfgang Amadeus Mozart",
+        "Mark Twain",
+        "Harry Houdini",
+        "John Wayne"
+      ],
+      "notes": "LOCKED intended roster. Multiple draft renders substituted Winston Churchill or Paul Revere; those are NOT approved for this collection.",
+      "count": 10
+    },
+    {
+      "id": "previously-featured",
+      "title": "Previously Featured Public Figures",
+      "short": "Deduplication registry",
+      "sector": "Archive",
+      "status": "roster-only",
+      "artwork": "",
+      "people": [
+        "Tom Cruise",
+        "Leonardo DiCaprio",
+        "Dwayne Johnson",
+        "Brad Pitt",
+        "Denzel Washington",
+        "Zendaya",
+        "Beyoncé"
+      ],
+      "notes": "Recorded as already used in earlier artwork per conversation. Do not add to new cast-sheet collections without an explicit creative decision.",
+      "count": 7
+    }
+  ],
+  "characters": [
+    {
+      "name": "Jesus",
+      "role": "Spiritual teacher; fictional animated interpretation",
+      "collections": [
+        "pilot-cast"
+      ],
+      "tags": [
+        "Spiritual / Politics"
+      ],
+      "id": "char-001",
+      "status": "priority",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Barack Obama",
+      "role": "Former U.S. president; fictional guest",
+      "collections": [
+        "pilot-cast"
+      ],
+      "tags": [
+        "Spiritual / Politics"
+      ],
+      "id": "char-002",
+      "status": "priority",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Donald Trump",
+      "role": "U.S. president; fictional guest",
+      "collections": [
+        "pilot-cast"
+      ],
+      "tags": [
+        "Spiritual / Politics"
+      ],
+      "id": "char-003",
+      "status": "priority",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "Technology entrepreneur; prospective guest",
+      "collections": [
+        "pilot-cast"
+      ],
+      "tags": [
+        "Spiritual / Politics"
+      ],
+      "id": "char-004",
+      "status": "priority",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Siddhartha Gautama (Buddha)",
+      "role": "Spiritual teacher; fictional historical interpretation",
+      "collections": [
+        "pilot-cast"
+      ],
+      "tags": [
+        "Spiritual / Politics"
+      ],
+      "id": "char-005",
+      "status": "priority",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Pope Leo XIV",
+      "role": "Head of the Catholic Church",
+      "collections": [
+        "global-iii"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-006",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Claudia Sheinbaum",
+      "role": "President of Mexico",
+      "collections": [
+        "global-iii"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-007",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "role": "Prime Minister of Israel",
+      "collections": [
+        "global-iii"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-008",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Sanae Takaichi",
+      "role": "Prime Minister of Japan",
+      "collections": [
+        "global-iii"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-009",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "role": "President of the European Commission",
+      "collections": [
+        "global-iii"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-010",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Giorgia Meloni",
+      "role": "Prime Minister of Italy",
+      "collections": [
+        "global-iii"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-011",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Javier Milei",
+      "role": "President of Argentina",
+      "collections": [
+        "global-iii"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-012",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Luiz Inácio Lula da Silva",
+      "role": "President of Brazil",
+      "collections": [
+        "global-iii"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-013",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Recep Tayyip Erdoğan",
+      "role": "President of Türkiye",
+      "collections": [
+        "global-iii"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-014",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "King Charles III",
+      "role": "King of the United Kingdom",
+      "collections": [
+        "global-iii"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-015",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Dario Amodei",
+      "role": "Anthropic — Co-Founder & CEO",
+      "collections": [
+        "global-iv"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-016",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Jimmy Donaldson (MrBeast)",
+      "role": "Beast Industries — Founder / Creator",
+      "collections": [
+        "global-iv"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-017",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Neal Mohan",
+      "role": "YouTube — CEO",
+      "collections": [
+        "global-iv"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-018",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Aliko Dangote",
+      "role": "Dangote Group — Founder",
+      "collections": [
+        "global-iv"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-019",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Kenneth C. Griffin",
+      "role": "Citadel — Founder & CEO",
+      "collections": [
+        "global-iv"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-020",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Abigail P. Johnson",
+      "role": "Fidelity Investments — Chairman & CEO",
+      "collections": [
+        "global-iv"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-021",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Carlos Slim Helú",
+      "role": "Grupo Carso / América Móvil",
+      "collections": [
+        "global-iv"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-022",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Gautam Adani",
+      "role": "Adani Group — Founder & Chairman",
+      "collections": [
+        "global-iv"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-023",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Amancio Ortega",
+      "role": "Inditex / Zara — Founder",
+      "collections": [
+        "global-iv"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-024",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Ma Huateng (Pony Ma)",
+      "role": "Tencent — Co-Founder & CEO",
+      "collections": [
+        "global-iv"
+      ],
+      "tags": [
+        "Global Influence"
+      ],
+      "id": "char-025",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Meryl Streep",
+      "role": "Actor; acclaimed screen performer",
+      "collections": [
+        "hollywood-legends-i"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-026",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Robert De Niro",
+      "role": "Actor; Tribeca co-founder",
+      "collections": [
+        "hollywood-legends-i"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-027",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Al Pacino",
+      "role": "Actor; cinema icon",
+      "collections": [
+        "hollywood-legends-i"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-028",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Samuel L. Jackson",
+      "role": "Actor; producer",
+      "collections": [
+        "hollywood-legends-i"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-029",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Harrison Ford",
+      "role": "Actor; film and television icon",
+      "collections": [
+        "hollywood-legends-i"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-030",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Arnold Schwarzenegger",
+      "role": "Actor; former California governor",
+      "collections": [
+        "hollywood-legends-i"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-031",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Keanu Reeves",
+      "role": "Actor; action and dramatic films",
+      "collections": [
+        "hollywood-legends-i"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-032",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Julia Roberts",
+      "role": "Actor; award-winning performer",
+      "collections": [
+        "hollywood-legends-i"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-033",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Morgan Freeman",
+      "role": "Actor; narrator and filmmaker",
+      "collections": [
+        "hollywood-legends-i"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-034",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Jackie Chan",
+      "role": "Actor; martial artist and filmmaker",
+      "collections": [
+        "hollywood-legends-i"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-035",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Scarlett Johansson",
+      "role": "Actor; film producer",
+      "collections": [
+        "hollywood-superstars-ii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-036",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Robert Downey Jr.",
+      "role": "Actor; film producer",
+      "collections": [
+        "hollywood-superstars-ii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-037",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Adam Sandler",
+      "role": "Actor; Happy Madison",
+      "collections": [
+        "hollywood-superstars-ii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-038",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Margot Robbie",
+      "role": "Actor; LuckyChap",
+      "collections": [
+        "hollywood-superstars-ii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-039",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Ryan Reynolds",
+      "role": "Actor; Maximum Effort",
+      "collections": [
+        "hollywood-superstars-ii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-040",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Timothée Chalamet",
+      "role": "Actor; contemporary cinema",
+      "collections": [
+        "hollywood-superstars-ii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-041",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Tom Holland",
+      "role": "Actor; contemporary cinema",
+      "collections": [
+        "hollywood-superstars-ii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-042",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Florence Pugh",
+      "role": "Actor; film and television",
+      "collections": [
+        "hollywood-superstars-ii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-043",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Millie Bobby Brown",
+      "role": "Actor; producer",
+      "collections": [
+        "hollywood-superstars-ii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-044",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Pedro Pascal",
+      "role": "Actor; film and television",
+      "collections": [
+        "hollywood-superstars-ii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-045",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Steven Spielberg",
+      "role": "Amblin / filmmaker",
+      "collections": [
+        "hollywood-power-iii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-046",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "George Lucas",
+      "role": "Lucasfilm / filmmaker",
+      "collections": [
+        "hollywood-power-iii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-047",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "James Cameron",
+      "role": "Lightstorm Entertainment / filmmaker",
+      "collections": [
+        "hollywood-power-iii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-048",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Christopher Nolan",
+      "role": "Syncopy / filmmaker",
+      "collections": [
+        "hollywood-power-iii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-049",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Kevin Feige",
+      "role": "Marvel Studios",
+      "collections": [
+        "hollywood-power-iii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-050",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "James Gunn",
+      "role": "DC Studios",
+      "collections": [
+        "hollywood-power-iii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-051",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Jerry Bruckheimer",
+      "role": "Film producer",
+      "collections": [
+        "hollywood-power-iii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-052",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "David Ellison",
+      "role": "Skydance / Paramount",
+      "collections": [
+        "hollywood-power-iii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-053",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Ted Sarandos",
+      "role": "Netflix",
+      "collections": [
+        "hollywood-power-iii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-054",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Donna Langley",
+      "role": "NBCUniversal",
+      "collections": [
+        "hollywood-power-iii"
+      ],
+      "tags": [
+        "Hollywood"
+      ],
+      "id": "char-055",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Paul McCartney",
+      "role": "The Beatles; songwriter",
+      "collections": [
+        "music-icons-iv"
+      ],
+      "tags": [
+        "Music"
+      ],
+      "id": "char-056",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Mick Jagger",
+      "role": "The Rolling Stones; vocalist",
+      "collections": [
+        "music-icons-iv"
+      ],
+      "tags": [
+        "Music"
+      ],
+      "id": "char-057",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Keith Richards",
+      "role": "The Rolling Stones; guitarist",
+      "collections": [
+        "music-icons-iv"
+      ],
+      "tags": [
+        "Music"
+      ],
+      "id": "char-058",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Madonna",
+      "role": "Singer; cultural icon",
+      "collections": [
+        "music-icons-iv"
+      ],
+      "tags": [
+        "Music"
+      ],
+      "id": "char-059",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Bruce Springsteen",
+      "role": "Songwriter; performer",
+      "collections": [
+        "music-icons-iv"
+      ],
+      "tags": [
+        "Music"
+      ],
+      "id": "char-060",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Cher",
+      "role": "Singer; actor",
+      "collections": [
+        "music-icons-iv"
+      ],
+      "tags": [
+        "Music"
+      ],
+      "id": "char-061",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Dolly Parton",
+      "role": "Singer; entrepreneur",
+      "collections": [
+        "music-icons-iv"
+      ],
+      "tags": [
+        "Music"
+      ],
+      "id": "char-062",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Elton John",
+      "role": "Musician; philanthropist",
+      "collections": [
+        "music-icons-iv"
+      ],
+      "tags": [
+        "Music"
+      ],
+      "id": "char-063",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Stevie Wonder",
+      "role": "Musician; songwriter",
+      "collections": [
+        "music-icons-iv"
+      ],
+      "tags": [
+        "Music"
+      ],
+      "id": "char-064",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Céline Dion",
+      "role": "Singer; performer",
+      "collections": [
+        "music-icons-iv"
+      ],
+      "tags": [
+        "Music"
+      ],
+      "id": "char-065",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Steve Wozniak",
+      "role": "Apple co-founder",
+      "collections": [
+        "masons-living-i"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-066",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Buzz Aldrin",
+      "role": "Apollo 11 astronaut",
+      "collections": [
+        "masons-living-i"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-067",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Prince Edward, Duke of Kent",
+      "role": "British royal; UGLE Grand Master",
+      "collections": [
+        "masons-living-i"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-068",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Kweisi Mfume",
+      "role": "Civil rights and political leader",
+      "collections": [
+        "masons-living-i"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-069",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Michael Richards",
+      "role": "Actor",
+      "collections": [
+        "masons-living-i"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-070",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Richard Dreyfuss",
+      "role": "Actor",
+      "collections": [
+        "masons-living-i"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-071",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Brad Paisley",
+      "role": "Country musician",
+      "collections": [
+        "masons-living-i"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-072",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Rick Wakeman",
+      "role": "Musician",
+      "collections": [
+        "masons-living-i"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-073",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "James G. Martin",
+      "role": "Former North Carolina governor",
+      "collections": [
+        "masons-living-i"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-074",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Shaquille O'Neal",
+      "role": "Athlete; media personality",
+      "collections": [
+        "masons-living-i"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-075",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Al Sharpton",
+      "role": "Civil rights leader",
+      "collections": [
+        "masons-living-ii"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-076",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Prince Michael of Kent",
+      "role": "British royal; Mark Master Masons",
+      "collections": [
+        "masons-living-ii"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-077",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "John Elway",
+      "role": "Former NFL quarterback",
+      "collections": [
+        "masons-living-ii"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-078",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Andrew Young",
+      "role": "Civil rights leader; former U.S. ambassador",
+      "collections": [
+        "masons-living-ii"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-079",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "L. Douglas Wilder",
+      "role": "Former Virginia governor",
+      "collections": [
+        "masons-living-ii"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-080",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Roland Burris",
+      "role": "Former U.S. senator",
+      "collections": [
+        "masons-living-ii"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-081",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Ras J. Baraka",
+      "role": "Newark political leader",
+      "collections": [
+        "masons-living-ii"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-082",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "James D. Cole",
+      "role": "Scottish Rite Southern Jurisdiction",
+      "collections": [
+        "masons-living-ii"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-083",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Jonathan Spence",
+      "role": "United Grand Lodge of England",
+      "collections": [
+        "masons-living-ii"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-084",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Ara Maloyan",
+      "role": "Grand Lodge of California",
+      "collections": [
+        "masons-living-ii"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-085",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "George Washington",
+      "role": "First U.S. president",
+      "collections": [
+        "masons-historical"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-086",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Benjamin Franklin",
+      "role": "Founding father",
+      "collections": [
+        "masons-historical"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-087",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Theodore Roosevelt",
+      "role": "26th U.S. president",
+      "collections": [
+        "masons-historical"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-088",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Franklin D. Roosevelt",
+      "role": "32nd U.S. president",
+      "collections": [
+        "masons-historical"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-089",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Harry S. Truman",
+      "role": "33rd U.S. president",
+      "collections": [
+        "masons-historical"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-090",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "J. Edgar Hoover",
+      "role": "Former FBI director",
+      "collections": [
+        "masons-historical"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-091",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Wolfgang Amadeus Mozart",
+      "role": "Composer",
+      "collections": [
+        "masons-historical"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-092",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Mark Twain",
+      "role": "Author",
+      "collections": [
+        "masons-historical"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-093",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Harry Houdini",
+      "role": "Illusionist",
+      "collections": [
+        "masons-historical"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-094",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "John Wayne",
+      "role": "Actor",
+      "collections": [
+        "masons-historical"
+      ],
+      "tags": [
+        "Freemasonry"
+      ],
+      "id": "char-095",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Tom Cruise",
+      "role": "Actor",
+      "collections": [
+        "previously-featured"
+      ],
+      "tags": [
+        "Archive"
+      ],
+      "id": "char-096",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Leonardo DiCaprio",
+      "role": "Actor",
+      "collections": [
+        "previously-featured"
+      ],
+      "tags": [
+        "Archive"
+      ],
+      "id": "char-097",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Dwayne Johnson",
+      "role": "Actor; entrepreneur",
+      "collections": [
+        "previously-featured"
+      ],
+      "tags": [
+        "Archive"
+      ],
+      "id": "char-098",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Brad Pitt",
+      "role": "Actor; producer",
+      "collections": [
+        "previously-featured"
+      ],
+      "tags": [
+        "Archive"
+      ],
+      "id": "char-099",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Denzel Washington",
+      "role": "Actor",
+      "collections": [
+        "previously-featured"
+      ],
+      "tags": [
+        "Archive"
+      ],
+      "id": "char-100",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Zendaya",
+      "role": "Actor",
+      "collections": [
+        "previously-featured"
+      ],
+      "tags": [
+        "Archive"
+      ],
+      "id": "char-101",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "name": "Beyoncé",
+      "role": "Musician",
+      "collections": [
+        "previously-featured"
+      ],
+      "tags": [
+        "Archive"
+      ],
+      "id": "char-102",
+      "status": "roster",
+      "approval": "casting/reference only",
+      "voice": "original actor or licensed TTS; never imitate real voice"
+    }
+  ],
+  "episodes": [
+    {
+      "id": "pilot-001",
+      "number": "PILOT / 001",
+      "title": "The Invitation",
+      "status": "storyboard",
+      "type": "pilot",
+      "duration": "20–30 min target; 12–20 sec proof first",
+      "guests": [
+        "Jesus",
+        "Barack Obama",
+        "Donald Trump"
+      ],
+      "description": "At an elite gala, a quiet figure in simple linen interrupts the powerful without raising his voice. An invitation leads away from hierarchy and into a circle of equal chairs, conversation and a shared fire.",
+      "themes": [
+        "power",
+        "humility",
+        "truth",
+        "compassion"
+      ],
+      "beats": [
+        [
+          "00",
+          "A lavish fictional elite gala hums with confident conversation."
+        ],
+        [
+          "01",
+          "Jesus arrives wearing plain linen. The room pauses."
+        ],
+        [
+          "02",
+          "He gently says, “Good evening.” A warm, disarming pause."
+        ],
+        [
+          "03",
+          "He smiles: “Don't let me interrupt. You seemed very busy.”"
+        ],
+        [
+          "04",
+          "He approaches selected guests: “Come with me.”"
+        ],
+        [
+          "05",
+          "The guests cross into a simple circular room with a central fire."
+        ],
+        [
+          "06",
+          "Everyone sits at equal height. “Well. How is everyone doing?”"
+        ],
+        [
+          "07",
+          "Silence, reactions, small laughter. The real conversation begins."
+        ]
+      ],
+      "notes": "This is the established pilot concept and a provisional test storyboard, not an approved final screenplay. Dialogue examples are fictional written for the project."
+    },
+    {
+      "id": "concept-002",
+      "number": "CONCEPT / 002",
+      "title": "The Weight of Power",
+      "status": "idea",
+      "type": "concept",
+      "duration": "20–30 min proposed",
+      "guests": [
+        "Jesus",
+        "Barack Obama",
+        "Donald Trump"
+      ],
+      "description": "What does responsibility feel like when decisions affect millions?",
+      "themes": [
+        "leadership",
+        "responsibility",
+        "fear"
+      ],
+      "beats": [],
+      "notes": "Episode concept extrapolated from agreed themes; NOT a written or approved episode."
+    },
+    {
+      "id": "concept-003",
+      "number": "CONCEPT / 003",
+      "title": "What Is Enough?",
+      "status": "idea",
+      "type": "concept",
+      "duration": "20–30 min proposed",
+      "guests": [
+        "Jesus",
+        "Elon Musk",
+        "Dario Amodei"
+      ],
+      "description": "A conversation about ambition, intelligence, limits and the possibility of contentment.",
+      "themes": [
+        "technology",
+        "power",
+        "love"
+      ],
+      "beats": [],
+      "notes": "Concept proposal only."
+    },
+    {
+      "id": "concept-004",
+      "number": "CONCEPT / 004",
+      "title": "The Price of Being Seen",
+      "status": "idea",
+      "type": "concept",
+      "duration": "20–30 min proposed",
+      "guests": [
+        "Meryl Streep",
+        "Robert Downey Jr.",
+        "Margot Robbie"
+      ],
+      "description": "Fame, performance and the gap between the public face and the private self.",
+      "themes": [
+        "identity",
+        "authenticity",
+        "fame"
+      ],
+      "beats": [],
+      "notes": "Concept proposal only; fictional guest voices."
+    },
+    {
+      "id": "concept-005",
+      "number": "CONCEPT / 005",
+      "title": "Who Writes the Story?",
+      "status": "idea",
+      "type": "concept",
+      "duration": "20–30 min proposed",
+      "guests": [
+        "Steven Spielberg",
+        "George Lucas",
+        "Christopher Nolan"
+      ],
+      "description": "When a story touches billions, what responsibility belongs to its storyteller?",
+      "themes": [
+        "storytelling",
+        "ethics",
+        "influence"
+      ],
+      "beats": [],
+      "notes": "Concept proposal only."
+    },
+    {
+      "id": "concept-006",
+      "number": "CONCEPT / 006",
+      "title": "A Song That Outlives Us",
+      "status": "idea",
+      "type": "concept",
+      "duration": "20–30 min proposed",
+      "guests": [
+        "Paul McCartney",
+        "Stevie Wonder",
+        "Dolly Parton"
+      ],
+      "description": "How music preserves memory, sorrow, joy and humanity across generations.",
+      "themes": [
+        "music",
+        "legacy",
+        "healing"
+      ],
+      "beats": [],
+      "notes": "Concept proposal only."
+    },
+    {
+      "id": "concept-007",
+      "number": "CONCEPT / 007",
+      "title": "Faith Across Time",
+      "status": "idea",
+      "type": "concept",
+      "duration": "20–30 min proposed",
+      "guests": [
+        "Jesus",
+        "Siddhartha Gautama (Buddha)"
+      ],
+      "description": "A respectful imaginative conversation about compassion, ego and spiritual practice.",
+      "themes": [
+        "faith",
+        "compassion",
+        "truth"
+      ],
+      "beats": [],
+      "notes": "Concept proposal only; not presented as authentic religious teaching or historical dialogue."
+    },
+    {
+      "id": "concept-008",
+      "number": "CONCEPT / 008",
+      "title": "The Measure of Legacy",
+      "status": "idea",
+      "type": "concept",
+      "duration": "20–30 min proposed",
+      "guests": [
+        "George Washington",
+        "Benjamin Franklin",
+        "Harry S. Truman"
+      ],
+      "description": "What do our institutions remember, and what do they forget?",
+      "themes": [
+        "history",
+        "responsibility",
+        "legacy"
+      ],
+      "beats": [],
+      "notes": "Concept proposal only; historical dramatization."
+    }
+  ],
+  "artworks": [
+    {
+      "id": "branding-banner",
+      "title": "YouTube channel banner",
+      "type": "branding",
+      "filename": "Circle_of_Truth_YouTube_Banner_2560x1440.jpg",
+      "status": "reference",
+      "repoPath": "/artwork/Circle_of_Truth_YouTube_Banner_2560x1440.jpg"
+    },
+    {
+      "id": "branding-watermark",
+      "title": "Transparent watermark",
+      "type": "branding",
+      "filename": "Circle_of_Truth_Transparent_Video_Watermark.png",
+      "status": "reference",
+      "repoPath": "/artwork/Circle_of_Truth_Transparent_Video_Watermark.png"
+    },
+    {
+      "id": "branding-watermark-square",
+      "title": "Square channel watermark",
+      "type": "branding",
+      "filename": "Circle_of_Truth_YouTube_Watermark_Square_512.png",
+      "status": "reference",
+      "repoPath": "/artwork/Circle_of_Truth_YouTube_Watermark_Square_512.png"
+    },
+    {
+      "id": "branding-safe-area",
+      "title": "Banner safe-area guide",
+      "type": "branding",
+      "filename": "Circle_of_Truth_Banner_Safe_Area_Guide.jpg",
+      "status": "reference",
+      "repoPath": "/artwork/Circle_of_Truth_Banner_Safe_Area_Guide.jpg"
+    },
+    {
+      "id": "global-iii",
+      "title": "Global Influence III",
+      "type": "cast",
+      "filename": "circle_of_truth_global_leaders.png",
+      "status": "rendered",
+      "repoPath": "/artwork/circle_of_truth_global_leaders.png"
+    },
+    {
+      "id": "global-iv",
+      "title": "Global Influence IV",
+      "type": "cast",
+      "filename": "circle_of_truth_global_influence_iv.png",
+      "status": "rendered",
+      "repoPath": "/artwork/circle_of_truth_global_influence_iv.png"
+    },
+    {
+      "id": "hollywood-legends-i",
+      "title": "Hollywood Legends I",
+      "type": "cast",
+      "filename": "hollywood_legends_beneath_the_tree_of_life.png",
+      "status": "approved",
+      "repoPath": "/artwork/hollywood_legends_beneath_the_tree_of_life.png"
+    },
+    {
+      "id": "hollywood-power-iii",
+      "title": "Entertainment Industry Power",
+      "type": "cast",
+      "filename": "circle_of_truth_entertainment_power_brokers.png",
+      "status": "rendered",
+      "repoPath": "/artwork/circle_of_truth_entertainment_power_brokers.png"
+    },
+    {
+      "id": "masons-living-ii",
+      "title": "Living Freemasons II",
+      "type": "cast",
+      "filename": "a_cinematic_hyper_detailed_photoreal_composite_p.png",
+      "status": "rendered",
+      "repoPath": "/artwork/a_cinematic_hyper_detailed_photoreal_composite_p.png"
+    },
+    {
+      "id": "masons-historical-draft",
+      "title": "Historical Freemasons — wrong substitutions",
+      "type": "rejected",
+      "filename": "a_cinematic_hyper_detailed_high_contrast_golden.png",
+      "status": "rejected",
+      "repoPath": "/artwork/a_cinematic_hyper_detailed_high_contrast_golden.png"
+    },
+    {
+      "id": "hollywood-ii-wrong",
+      "title": "Hollywood Legends II — wrong roster",
+      "type": "rejected",
+      "filename": "a_highly_detailed_cinematic_poster_style_group_por.png",
+      "status": "rejected",
+      "repoPath": "/artwork/a_highly_detailed_cinematic_poster_style_group_por.png"
+    },
+    {
+      "id": "global-visionaries-wrong",
+      "title": "Global Visionaries II — unrelated roster",
+      "type": "rejected",
+      "filename": "a_highly_detailed_cinematic_photorealistic_styli.png",
+      "status": "rejected",
+      "repoPath": "/artwork/a_highly_detailed_cinematic_photorealistic_styli.png"
+    },
+    {
+      "id": "visionary-thinkers-wrong",
+      "title": "Visionary Thinkers II — unrelated roster",
+      "type": "rejected",
+      "filename": "a_highly_detailed_cinematic_poster_in_the_same_c.png",
+      "status": "rejected",
+      "repoPath": "/artwork/a_highly_detailed_cinematic_poster_in_the_same_c.png"
+    },
+    {
+      "id": "spiritual-ensemble",
+      "title": "Spiritual character exploration",
+      "type": "reference",
+      "filename": "Circle_of_Truth_Spiritual_Human_Cast_Cards.png",
+      "status": "review",
+      "repoPath": "/artwork/Circle_of_Truth_Spiritual_Human_Cast_Cards.png"
+    },
+    {
+      "id": "historical-cast-early",
+      "title": "Historical cast exploration",
+      "type": "reference",
+      "filename": "Circle_of_Truth_New_Historical_Full_Body_Cast.png",
+      "status": "review",
+      "repoPath": "/artwork/Circle_of_Truth_New_Historical_Full_Body_Cast.png"
+    },
+    {
+      "id": "legacy-cast-archive",
+      "title": "Six early cast-sheet preview",
+      "type": "reference",
+      "filename": "Circle_of_Truth_Six_Cast_Preview.jpg",
+      "status": "review",
+      "repoPath": "/artwork/Circle_of_Truth_Six_Cast_Preview.jpg"
+    }
+  ],
+  "production": {
+    "priorityCast": [
+      "Jesus",
+      "Barack Obama",
+      "Donald Trump"
+    ],
+    "laterCast": [
+      "Elon Musk",
+      "Siddhartha Gautama (Buddha)"
+    ],
+    "targetFormat": "20–30 minute stylized 3D episodes",
+    "pipeline": [
+      "Rights and environment audit",
+      "Three-character modeling / facial rig proof",
+      "Luxury gala and equal-chair fire circle sets",
+      "12–20-second speaking proof",
+      "45–60-second intro and exchange",
+      "Three-minute conversational prototype",
+      "Approved full-length pilot",
+      "Remotion + FFmpeg final assembly"
+    ],
+    "tools": [
+      "Blender + Python",
+      "Remotion (React / TypeScript)",
+      "FFmpeg",
+      "Rhubarb Lip Sync",
+      "Licensed original voice performances or TTS"
+    ],
+    "qualityGates": [
+      "Rights cleared",
+      "Cast model/face/voice approved",
+      "Both sets approved",
+      "Actual audio/visemes tested",
+      "Short render inspected",
+      "Final export and credits validated"
+    ]
+  }
+}

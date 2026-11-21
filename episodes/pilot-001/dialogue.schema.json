@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "scene",
+      "character",
+      "text",
+      "start_s",
+      "duration_s",
+      "status"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "scene": {
+        "type": "string"
+      },
+      "character": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "emotion": {
+        "type": "string"
+      },
+      "audio_file": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "viseme_file": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "start_s": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "duration_s": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "camera": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      }
+    }
+  }
+}

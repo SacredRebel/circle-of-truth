@@ -1,0 +1,28 @@
+[
+  {
+    "id": "p001_line001",
+    "scene": "elite_hall",
+    "character": "jesus",
+    "text": "Good evening.",
+    "emotion": "warm_and_calm",
+    "camera": "CAM_SPEAKER",
+    "audio_file": null,
+    "viseme_file": null,
+    "start_s": null,
+    "duration_s": null,
+    "status": "needs_audio_timing"
+  },
+  {
+    "id": "p001_line002",
+    "scene": "elite_hall",
+    "character": "jesus",
+    "text": "Come with me.",
+    "emotion": "gentle_invitation",
+    "camera": "CAM_ENTRANCE",
+    "audio_file": null,
+    "viseme_file": null,
+    "start_s": null,
+    "duration_s": null,
+    "status": "needs_audio_timing"
+  }
+]
