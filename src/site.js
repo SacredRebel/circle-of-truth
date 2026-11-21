@@ -1,6 +1,6 @@
 import { renderCinematic } from "./cinematic.js";
 const ROOT="https://github.com/SacredRebel/circle-of-truth";
-let DATA=null, ORIGINAL=null, INTEGRATION=null;const state={sector:"All",castQuery:"",gallery:"All"};
+let DATA=null, ORIGINAL=null, INTEGRATION=null, SEASON=null;const state={sector:"All",castQuery:"",gallery:"All"};
 const statuses={"approved-artwork":["Approved look","approved"],"artwork-created":["Artwork produced","neutral"],"reference-artwork":["Reference art","neutral"],"needs-correct-image":["Needs correct poster","blocked"],"development":["In development","neutral"],"roster-only":["Dedup registry","neutral"],storyboard:["Storyboard","neutral"],idea:["Concept only","neutral"],rendered:["Rendered","neutral"],approved:["Creator approved","approved"],rejected:["Rejected","blocked"],review:["Needs review","neutral"],reference:["Reference","neutral"]};
 const $=s=>document.querySelector(s);
 const esc=(s="")=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -132,8 +132,8 @@ function notFound(){shell(heading("404","That doorway is closed","The requested 
 function route(){
  if(!DATA)return;
  const path=routePath(); const [_,a,b]=path.split("/");
- const cinematicRoutes={ "/":"home","/origin":"origin","/animated":"animated","/acts":"acts","/people":"people","/impact":"impact","/partners":"partners","/timeline":"timeline","/foundations":"foundations" };
- if(cinematicRoutes[path]){renderCinematic(cinematicRoutes[path],{data:DATA,orig:ORIGINAL,integration:INTEGRATION});window.scrollTo({top:0,behavior:"instant"});return;}
+ const cinematicRoutes={ "/":"home","/origin":"origin","/animated":"animated","/acts":"acts","/people":"people","/impact":"impact","/partners":"partners","/timeline":"timeline","/foundations":"foundations","/season":"season" };
+ if(cinematicRoutes[path]){renderCinematic(cinematicRoutes[path],{data:DATA,orig:ORIGINAL,integration:INTEGRATION,season:SEASON});window.scrollTo({top:0,behavior:"instant"});return;}
  if(a==="collections")collections();
  else if(a==="collection")collectionDetail(b);
  else if(a==="characters")characters();
@@ -162,10 +162,10 @@ document.addEventListener("change",e=>{if(e.target.matches("[data-task]")){const
 window.addEventListener("hashchange",route);
 async function start(){
  try{
-  const urls=["/data/content.json","/data/original-concept.json","/data/concept-integration.json"];
+  const urls=["/data/content.json","/data/original-concept.json","/data/concept-integration.json","/data/live-season-plan.json"];
   const responses=await Promise.all(urls.map(url=>fetch(url,{cache:"no-store"})));
   for(let i=0;i<responses.length;i++)if(!responses[i].ok)throw new Error(urls[i]+" returned "+responses[i].status);
-  [DATA,ORIGINAL,INTEGRATION]=await Promise.all(responses.map(r=>r.json()));
+  [DATA,ORIGINAL,INTEGRATION,SEASON]=await Promise.all(responses.map(r=>r.json()));
   route();
  }catch(err){
   $("#app").innerHTML=`<div class="loading-screen"><div class="loading-orb">!</div><h1>Archive unavailable</h1><p>${esc(err.message)}</p><p>Make sure the source and data directories are deployed together.</p></div>`;

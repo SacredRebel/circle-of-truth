@@ -1,5 +1,5 @@
 export function renderCinematic(page,context){
-  const {data,orig,integration}=context;
+  const {data,orig,integration,season}=context;
   const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const link=(path,text,cls="")=>`<a href="#${path}" class="${cls}">${text}</a>`;
   const crew=orig.production.team;
@@ -70,11 +70,12 @@ export function renderCinematic(page,context){
     `;
   }else if(page==="origin"){
     title="The Original Series";
-    body=`<section class="f-hero f-subhero f-origin-hero">${heroFire}<div class="f-subhero-copy"><span class="f-kicker">01 / FOUNDING CONCEPT · EPISODIC DOCUMENTARY</span><h1>The original<br/><em>Circle of Truth.</em></h1><p>A three-day ceremonial journey of conversations, lived experience, healing arts, sound, regenerative practice and truth.</p><div class="f-actions">${primaryButton("/acts","EXPLORE THE EIGHT ACTS")}${outlineButton("/people","THE ORIGINAL GUEST WISHLIST")}</div><div class="f-source-inline">SOURCE: ORIGINAL DEVELOPMENT DECK · PAGE 3</div></div></section>
+    body=`<section class="f-hero f-subhero f-origin-hero">${heroFire}<div class="f-subhero-copy"><span class="f-kicker">01 / FOUNDING CONCEPT · EPISODIC DOCUMENTARY</span><h1>The original<br/><em>Circle of Truth.</em></h1><p>A three-day ceremonial journey of conversations, lived experience, healing arts, sound, regenerative practice and truth.</p><div class="f-actions">${primaryButton("/acts","EXPLORE THE EIGHT ACTS")}${outlineButton("/season","VIEW THE 15-EPISODE PLAN")}${outlineButton("/people","ORIGINAL GUEST WISHLIST")}</div><div class="f-source-inline">SOURCE: ORIGINAL DEVELOPMENT DECK · PAGE 3</div></div></section>
     <section class="f-section">${sec("AN AMBITIOUS ORIGINAL FORMAT","A ceremony becomes a conversation.")}<div class="f-editorial-two"><div><p class="f-largelead">The founding show isn't a panel discussion. It is an immersive shared experience unfolding across three ceremonial days and closing with a Circle of 12.</p><div class="f-prose">The deck describes a host, Mark Pancis, guiding guests through regeneration of land, body and spirit. Each installment proposes live performances, regenerative practices, two leading questions and a real project showing people collaborating toward a shared future.</div><p class="f-smallnote">Host and participation roles are as described in the historical deck; current commitments have not been confirmed.</p></div><div class="f-figure-box"><span class="f-kicker">FROM THE ORIGINAL PITCH</span>${formatItem("15","EPISODES PROPOSED")}${formatItem("90 MIN","FORMAT LABEL · MEANING TO CONFIRM")}${formatItem("12","MAIN GUESTS")}${formatItem("1–2","LIVE PERFORMANCES / PRACTICES")}</div></div></section>
     <section class="f-section f-ritual">${sec("THE EVENT ARC","Three days. One circle.")}<div class="f-triptych"><article><span class="f-kicker">DAY I · THE ARRIVAL</span><h3>Gathering</h3><p>Place, land, tradition and people. Participants move beyond their familiar public roles into a shared setting.</p></article><article><span class="f-kicker">DAY II · THE EXPERIENCE</span><h3>Remembering</h3><p>Embodied, ceremonial and regenerative experiences invite curiosity and reflection through practical encounters.</p></article><article><span class="f-kicker">DAY III · THE CONVERSATION</span><h3>Reconnecting</h3><p>Twelve participants sit together to explore two central truth topics and the choices that could follow.</p></article></div><p class="f-smallnote">Illustrative three-day treatment based on the deck's three-day ceremonial concept, not an approved production schedule.</p></section>
     <section class="f-section">${sec("A SHOW ABOUT DOING","Every episode points toward action.",outlineButton("/impact","IMPACT FRAMEWORK"))}<div class="f-ritual-illustration"><div class="f-ritual-circle" aria-hidden="true">◎</div><div class="f-ritual-copy"><span class="f-kicker">THE FIELD COMPONENT</span><h3>Regeneration is not a backdrop.</h3><p>Land restoration, community leadership, practical projects and collective decisions are part of the original storytelling design—not just atmospheric imagery.</p></div></div></section>
     <section class="f-section">${sec("PEOPLE BEHIND THE INITIAL VISION","The founding production roster.")}<div class="f-crew-grid">${crew.map(c=>`<div class="f-crew"><span class="f-kicker">${esc(c.role)}</span><h3>${esc(c.name)}</h3><small>${esc(c.status)} · DECK P. 10</small></div>`).join("")}</div><p class="f-smallnote">All credits are transcribed from the original pitch-era roster, not represented as current contracts. Jerry Bruckheimer is explicitly listed as a potential lead producer only.</p></section>
+    ${renderDistribution()}
     <section class="f-section f-concept-next"><h2>A vision rooted in ceremony.<br/><em>Built to make room for everyone.</em></h2>${outlineButton("/timeline","HISTORICAL PLAN & TIMELINE")}</section>`;
   }else if(page==="animated"){
     title="The Animated Universe";
@@ -88,6 +89,14 @@ export function renderCinematic(page,context){
     title="The Eight Acts";
     body=`<section class="f-page-heading f-acts-heading"><span class="f-kicker">THE EIGHT PILLARS · ORIGINAL DECK PAGES 5–6</span><h1>Eight acts.<br/><em>One collective question.</em></h1><p>The founding documentary's eight thematic acts are a storytelling framework across the proposed live series—not eight completed episodes. Select an act to explore its purpose.</p></section>
     <section class="f-section f-act-page">${sec("THE ORIGINAL STRUCTURE","A journey from remembrance to possibility.")}<div class="f-act-select-grid">${orig.acts.map((a,i)=>`<button type="button" class="f-act-choice ${i===0?"selected":""}" data-act="${i}" aria-pressed="${i===0}"><span>${String(a.number).padStart(2,"0")}</span><strong>${esc(a.title)}</strong><small>↗</small></button>`).join("")}</div><div id="f-active-act" class="f-act-detail">${actDetail(orig.acts[0])}</div></section>`;
+  }else if(page==="season"){
+
+ title="The 15-Episode Plan";
+ const n=season.episodes.length;
+ body=`<section class="f-page-heading"><span class="f-kicker">THE ORIGINAL SERIES · PROPOSED SEASON</span><h1>Fifteen episodes.<br/><em>One larger story.</em></h1><p>The founding deck proposed ${n} episodes built around eight editorial acts. It did not assign individual episode titles, guests, filming dates or specific stories. This development board preserves every open slot without inventing production milestones.</p></section>
+ <section class="f-section">${sec("THE OPEN SEASON SLATE","Structured for collaboration; programming not yet approved.")}<div class="f-season-grid">${season.episodes.map(ep=>`<article class="f-season-episode"><div class="f-season-top"><span>EPISODE ${String(ep.ordinal).padStart(2,"0")}</span><b>UNASSIGNED</b></div><strong>${String(ep.ordinal).padStart(2,"0")}</strong><h3>Awaiting the story.</h3><p>Guests, ceremony, regenerative practice, impact project and two topics to be developed.</p><a href="https://github.com/SacredRebel/circle-of-truth/issues/new" target="_blank" rel="noopener noreferrer">PROPOSE A BRIEF ↗</a></article>`).join("")}</div><p class="f-smallnote">Original deck p. 3 and p. 15. The phrase “90 minutes” is retained in the source; its precise relationship to each episode is not confirmed.</p></section>
+ <section class="f-section">${sec("THE FORMAT BLOCKS","A proposed blueprint for each filmed episode.")}<div class="f-episode-blocks">${season.programmingRules.map((x,i)=>`<article><span>${String(i+1).padStart(2,"0")}</span><p>${esc(x)}</p></article>`).join("")}</div><div class="f-actions">${primaryButton("/acts","EIGHT EDITORIAL ACTS")}${outlineButton("/timeline","PRODUCTION HISTORY")}</div></section>`;
+
   }else if(page==="people"){
     title="The People";
     body=`<section class="f-page-heading"><span class="f-kicker">THE HUMAN CONSTELLATION</span><h1>Not just names.<br/><em>Potential conversations.</em></h1><p>Explore the original 24-person potential guest wishlist and the combined ${data.characters.length}-person character registry. The two lists are connected, but a wishlist is never a confirmed booking.</p></section>
@@ -118,7 +127,7 @@ export function renderCinematic(page,context){
   }else{return false;}
   const nav=menu.map(([path,label])=>`<a href="#${path}" class="${(page==="home"&&path==="/")||(page!=="home"&&path==="/"+page)?"current":""}">${esc(label)}</a>`).join("");
   const footExtra=[
-    ["/timeline","TIMELINE"],["/partners","DEVELOPMENT"],["/foundations","SOURCE NOTES"],["/collections","CAST COLLECTIONS"],["/episodes","EPISODES"],["/production","PRODUCTION STUDIO"]
+    ["/season","15-EPISODE SLATE"],["/timeline","TIMELINE"],["/partners","DEVELOPMENT"],["/foundations","SOURCE NOTES"],["/collections","CAST COLLECTIONS"],["/episodes","EPISODES"],["/production","PRODUCTION STUDIO"]
   ].map(([path,label])=>`<a href="#${path}">${label}</a>`).join("");
   document.body.classList.add("cinematic-mode");
   document.title=title+" · Circle of Truth";
@@ -156,5 +165,8 @@ export function renderCinematic(page,context){
   function actDetail(a){
     return `<div class="f-act-detail-num">${String(a.number).padStart(2,"0")}<span>/ 08</span></div><div><span class="f-kicker">FROM THE FOUNDING SCRIPT TREATMENT · DECK P. ${a.pages.join(", ")}</span><h3>${esc(a.title)}</h3><h4>${esc(a.subtitle)}</h4><p>${esc(a.description)}</p><div class="f-keywords">${a.themes.map(t=>`<span>${esc(t)}</span>`).join("")}</div></div>`;
   }
+function renderDistribution(){
+ return `<section class="f-section f-distribution-section">${sec("REACH THE AUDIENCE","The original release and distribution concept.")}<div class="f-distribution-grid">${orig.distribution.channels.map((ch,i)=>`<div class="f-distribution-card"><span class="f-kicker">CHANNEL / 0${i+1}</span><h3>${esc(ch.name)}</h3><p>${esc(ch.role)}</p></div>`).join("")}</div><p class="f-smallnote">Source deck p. 12. These were proposed distribution platforms, not confirmed deals, premieres or publication dates.</p></section>`;
+}
   return true;
 }
