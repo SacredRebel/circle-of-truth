@@ -5,7 +5,7 @@
 
 This repository holds the creative bible, canonical pilot concept, development slate, **102 deduplicated character records**, 11 themed collections (including the priority production cast and an archive of previously used names), artwork status manifest, and production collaboration notes.
 
-## Start here
+**Live production deployment:** https://circle-of-truth.vercel.app/ (Vercel deployment reports READY; Vercel Authentication may require authorized login).\n\n## Start here
 
 - **Homepage** — cinematic series introduction and creative overview
 - **Collections** — ordered 10-person cast rosters with no silent substitutions
