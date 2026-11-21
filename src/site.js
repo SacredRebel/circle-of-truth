@@ -1,5 +1,6 @@
+import { renderCinematic } from "./cinematic.js";
 const ROOT="https://github.com/SacredRebel/circle-of-truth";
-let DATA=null;const state={sector:"All",castQuery:"",gallery:"All"};
+let DATA=null, ORIGINAL=null, INTEGRATION=null;const state={sector:"All",castQuery:"",gallery:"All"};
 const statuses={"approved-artwork":["Approved look","approved"],"artwork-created":["Artwork produced","neutral"],"reference-artwork":["Reference art","neutral"],"needs-correct-image":["Needs correct poster","blocked"],"development":["In development","neutral"],"roster-only":["Dedup registry","neutral"],storyboard:["Storyboard","neutral"],idea:["Concept only","neutral"],rendered:["Rendered","neutral"],approved:["Creator approved","approved"],rejected:["Rejected","blocked"],review:["Needs review","neutral"],reference:["Reference","neutral"]};
 const $=s=>document.querySelector(s);
 const esc=(s="")=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -13,6 +14,7 @@ const url=path=>"#"+path;
 const personByName=name=>DATA.characters.find(x=>x.name===name);
 const collectionById=id=>DATA.collections.find(x=>x.id===id);
 function shell(body,path){
+ document.body.classList.remove("cinematic-mode");
  const sect=path.split("/")[1]||"";
  const active=sect==="collection"?"collections":sect==="character"?"characters":sect==="episode"?"episodes":sect;
  const crumb=navLinks.find(x=>x[1]===active)?.[2]|| (sect==="collection"?"Collection details":sect==="episode"?"Episode detail":sect==="character"?"Character": "Overview");
@@ -127,7 +129,24 @@ function collaboration(){
  `<div class="alert"><strong>Collaboration model:</strong> GitHub issues and pull requests provide shared history. The checkboxes and notes below are local drafts, not cloud-synced and not visible to colleagues until exported or copied into an issue.</div><div class="split"><div class="panel"><div class="eyebrow">TEAM CHECKLIST</div><h3>Production priorities</h3><div id="task-list">${tasks.map((t,i)=>`<label class="task-item"><input type="checkbox" data-task="${i}" ${saved[i]?"checked":""}/><span style="${saved[i]?"text-decoration:line-through;opacity:.56":""}">${esc(t)}</span></label>`).join("")}</div><button class="btn secondary" data-action="reset-tasks">Reset local checklist</button></div><div><div class="panel"><div class="eyebrow">PERSONAL WORK NOTES</div><h3>Brief the next agent</h3><p>Draft your handoff or review comments here. Download the notes or create a GitHub issue so the team can see them.</p><textarea class="notes" id="work-notes" placeholder="Progress, blockers, decisions, reference links…">${esc(notes)}</textarea><div style="display:flex;gap:9px;flex-wrap:wrap;margin-top:14px"><button class="btn primary" data-action="export-notes">Download handoff JSON ↗</button><a class="btn" href="${ROOT}/issues/new" target="_blank" rel="noopener">Create GitHub issue ↗</a></div><p class="fineprint">Changes are saved locally as you type. Do not put secrets or private credentials in this public-repository workflow.</p></div><div class="panel" style="margin-top:16px"><h3>Team workflow</h3><div class="link-list"><a class="link-item" target="_blank" rel="noopener" href="${ROOT}/issues">Open issues ↗</a><a class="link-item" target="_blank" rel="noopener" href="${ROOT}/pulls">Review pull requests ↗</a><a class="link-item" target="_blank" rel="noopener" href="${ROOT}/blob/main/docs/PRODUCTION_HANDOFF.md">Read handoff guide ↗</a></div></div></div></div>`,"/collaboration");
 }
 function notFound(){shell(heading("404","That doorway is closed","The requested record is not in our curated archive yet.")+'<a class="btn primary" href="#/">Return to the overview ↗</a>',"/");}
-function route(){if(!DATA)return;const path=routePath();const [_,a,b]=path.split("/");if(path==="/")home();else if(a==="collections")collections();else if(a==="collection")collectionDetail(b);else if(a==="characters")characters();else if(a==="character")characterDetail(b);else if(a==="episodes")episodes();else if(a==="episode")episodeDetail(b);else if(a==="gallery")gallery();else if(a==="story")story();else if(a==="production")production();else if(a==="assets")assets();else if(a==="collaboration")collaboration();else notFound();}
+function route(){
+ if(!DATA)return;
+ const path=routePath(); const [_,a,b]=path.split("/");
+ const cinematicRoutes={ "/":"home","/origin":"origin","/animated":"animated","/acts":"acts","/people":"people","/impact":"impact","/partners":"partners","/timeline":"timeline","/foundations":"foundations" };
+ if(cinematicRoutes[path]){renderCinematic(cinematicRoutes[path],{data:DATA,orig:ORIGINAL,integration:INTEGRATION});window.scrollTo({top:0,behavior:"instant"});return;}
+ if(a==="collections")collections();
+ else if(a==="collection")collectionDetail(b);
+ else if(a==="characters")characters();
+ else if(a==="character")characterDetail(b);
+ else if(a==="episodes")episodes();
+ else if(a==="episode")episodeDetail(b);
+ else if(a==="gallery")gallery();
+ else if(a==="story")story();
+ else if(a==="production")production();
+ else if(a==="assets")assets();
+ else if(a==="collaboration")collaboration();
+ else notFound();
+}
 document.addEventListener("click",e=>{
  const action=e.target.closest("[data-action]");if(action){const a=action.dataset.action;if(a==="menu")document.body.classList.toggle("menu-open");if(a==="reset-tasks"){localStorage.removeItem("cot.tasks");collaboration();}if(a==="export-notes"){const obj={project:"Circle of Truth",exported_at:new Date().toISOString(),notes:localStorage.getItem("cot.notes")||"",tasks:JSON.parse(localStorage.getItem("cot.tasks")||"{}")};const blob=new Blob([JSON.stringify(obj,null,2)],{type:"application/json"});const u=URL.createObjectURL(blob);const el=document.createElement("a");el.href=u;el.download="circle-of-truth-handoff.json";el.click();setTimeout(()=>URL.revokeObjectURL(u),1000);}return;}
  const chip=e.target.closest("[data-sector]");if(chip){state.sector=chip.dataset.sector;document.querySelectorAll("[data-sector]").forEach(x=>x.classList.toggle("active",x===chip));filterPeople();return;}
@@ -141,5 +160,16 @@ document.addEventListener("input",e=>{
 });
 document.addEventListener("change",e=>{if(e.target.matches("[data-task]")){const saved=JSON.parse(localStorage.getItem("cot.tasks")||"{}");saved[e.target.dataset.task]=e.target.checked;localStorage.setItem("cot.tasks",JSON.stringify(saved));e.target.nextElementSibling.style.textDecoration=e.target.checked?"line-through":"none";e.target.nextElementSibling.style.opacity=e.target.checked?".56":"1";}});
 window.addEventListener("hashchange",route);
-async function start(){try{const r=await fetch("/data/content.json",{cache:"no-store"});if(!r.ok)throw new Error("Data returned "+r.status);DATA=await r.json();route();}catch(err){$("#app").innerHTML=`<div class="loading-screen"><div class="loading-orb">!</div><h1>Archive unavailable</h1><p>${esc(err.message)}</p><p>Make sure the complete repository is deployed together with /data/content.json.</p></div>`;console.error(err);}}
+async function start(){
+ try{
+  const urls=["/data/content.json","/data/original-concept.json","/data/concept-integration.json"];
+  const responses=await Promise.all(urls.map(url=>fetch(url,{cache:"no-store"})));
+  for(let i=0;i<responses.length;i++)if(!responses[i].ok)throw new Error(urls[i]+" returned "+responses[i].status);
+  [DATA,ORIGINAL,INTEGRATION]=await Promise.all(responses.map(r=>r.json()));
+  route();
+ }catch(err){
+  $("#app").innerHTML=`<div class="loading-screen"><div class="loading-orb">!</div><h1>Archive unavailable</h1><p>${esc(err.message)}</p><p>Make sure the source and data directories are deployed together.</p></div>`;
+  console.error(err);
+ }
+}
 start();
