@@ -1,4 +1,6 @@
-# CIRCLE OF TRUTH — SHOW BIBLE
+# CIRCLE OF TRUTH — ANIMATED COMPANION SHOW BIBLE
+
+**Scope notice:** This document covers the *fictional animated companion*, not the original live ceremonial docuseries. Preserve the founding vision in `data/original-concept.json` and `docs/ORIGINAL_DECK_ANALYSIS.md`. The two tracks are complementary, not the same production.
 
 ## Series identity
 

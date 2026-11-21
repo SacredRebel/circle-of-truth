@@ -3,13 +3,36 @@
 
 **An original fictional stylized-3D animated roundtable series — production site + organized source archive.**
 
-This repository holds the creative bible, canonical pilot concept, development slate, **102 deduplicated character records**, 11 themed collections (including the priority production cast and an archive of previously used names), artwork status manifest, and production collaboration notes.
+This repository unites the original 20-page *live ceremonial documentary pitch* with the newer *fictional 3D animated companion*, and holds the creative bible, canonical pilot concept, development slate, **121 deduplicated person records**, 11 themed collections (including the priority production cast and an archive of previously used names), artwork status manifest, and production collaboration notes.
 
-**Live production deployment:** https://circle-of-truth.vercel.app/ (Vercel deployment reports READY; Vercel Authentication may require authorized login).\n\n## Start here
+**Live production deployment:** https://circle-of-truth.vercel.app/ (Vercel deployment reports READY; Vercel Authentication may require authorized login).\n\n## Two connected formats — do not conflate them
 
-- **Homepage** — cinematic series introduction and creative overview
+**1. The Original Series (founding live docuseries):** The source deck proposes 15 episodes, an ambiguous '90 minutes' format label, 12 guests in a Circle of Truth, two leading discussion topics, live performances, regenerative practices, three ceremonial days, an Ojai setting, and an eight-act editorial framework. All original team, guests, places, funding and timeline claims are **pitch-era proposals**, not verified current contracts.
+
+**2. The Animated Universe (fictional cinematic companion):** A 20–30-minute proposed stylized 3D format, with a fictional pilot storyboard *The Invitation*, a 12–20-second first technical rendering gate, and 121 canonical character records. This is **not** a real filmed meeting and does not claim actual views or voice performances of real people.
+
+**Original integration sources:**
+- [Original deck analysis](docs/ORIGINAL_DECK_ANALYSIS.md)
+- [Structured 20-page original concept](data/original-concept.json)
+- [Cross-format architecture and conflicts](data/concept-integration.json)
+- [15 unassigned live-series episode slots](data/live-season-plan.json)
+- [Visual design and site framework](docs/CINEMATIC_DESIGN_SYSTEM.md)
+- [Unified agent handoff](docs/UNIFIED_CREATIVE_HANDOFF.md)
+
+The raw uploaded `Circle of Truth.pdf` is **not public in this repo**, because it includes contact details and unverified rights to mood-board photography; its page-grounded data and status notes are preserved above.
+
+## Start here
+
+- **Premiere homepage** — premium cinematic film launch site with fire-and-circle opening art
+- **Original Series** — founding documentary format, historical host and crew roster, live distribution plan
+- **The Animated Universe** — the fictional 3D counterpart and pilot story
+- **Eight Acts** — interactive original-deck editorial pillars
+- **The People** — 24 original potential guests linked into the shared casting archive
+- **15-Episode Plan** — open documentary slate with explicit unassigned story/guest fields
+- **Regenerative Impact** — field-work and community storytelling framework
+- **Development / Timeline / Foundations** — historical financial proposals, pitch timeline and source comparison
 - **Collections** — ordered 10-person cast rosters with no silent substitutions
-- **Character library** — 102 searchable unique people with linked collection appearances
+- **Character library** — 121 searchable unique people with linked collection appearances
 - **Episodes** — one pilot storyboard plus seven explicitly proposed concepts
 - **Gallery** — status-labeled artwork inventory; rejected/draft work is not published as final
 - **Story world** — gala, invitation, fire circle, storytelling tone, portrayal rules
@@ -39,7 +62,10 @@ Open `http://localhost:3000`. Do not use `file://` because the site loads `data/
 
 ## Content editing
 
-- Primary data source: [`data/content.json`](data/content.json)
+- Primary casting / animation data source: [`data/content.json`](data/content.json)
+- Original documentary data: [`data/original-concept.json`](data/original-concept.json)
+- Integration logic: [`data/concept-integration.json`](data/concept-integration.json)
+- 15 documentary planning slots: [`data/live-season-plan.json`](data/live-season-plan.json)
 - Cast collections: `collections[].people` in locked order
 - Single canonical records: `characters[]` with roles, tags and collection IDs
 - Episode slate: `episodes[]`, with `status` and `notes` distinguishing concepts from completed production
@@ -68,11 +94,11 @@ When you transfer the existing poster files, place them under `artwork/` **with 
 - [Dialogue data](episodes/pilot-001/dialogue.json) and [schema](episodes/pilot-001/dialogue.schema.json)
 - [Collaboration handoff](docs/PRODUCTION_HANDOFF.md)
 
-### Story synopsis
+### Animated companion pilot synopsis
 
 A mysterious teacher dressed in plain linen walks into an elite gala and invites selected guests away from status and spectacle. They enter a simple, fire-lit circular room with equal-height chairs and begin an unexpectedly human conversation.
 
-**The priority proof-of-concept cast is Jesus, Barack Obama and Donald Trump.** Later thematic guests and collections are for exploratory casting. The technical path is a 12–20 second character animation proof, then a one-minute opening, a three-minute prototype, and a long-form episode only after explicit approvals.
+**The priority animated proof-of-concept cast is Jesus, Barack Obama and Donald Trump.** Later thematic guests and collections are for exploratory casting. The technical path is a 12–20 second character animation proof, then a one-minute opening, a three-minute prototype, and a long-form episode only after explicit approvals.
 
 ### Fiction and representation
 
@@ -80,7 +106,7 @@ Real contemporary figures, historical figures and spiritual teachers are **ficti
 
 ## Status
 
-- **Implemented:** static Vercel-ready website, cast catalog, episode slate, story world, project documentation, text sources and collaboration page.
+- **Implemented:** Vercel production site; full cinematic premiere pages; original-deck content/guest/act/financial/distribution import; 15-slot live season board; deduplicated cast catalog; animated storyboard, source and handoff documentation; production workspace and collaboration page.
 - **Still pending:** transferring original binary artwork, verifying public names/titles and affiliations, real Blender/Remotion render tests, completed dialogue and final episodes, and any private access control.
 
 © Circle of Truth — Creative development project.
