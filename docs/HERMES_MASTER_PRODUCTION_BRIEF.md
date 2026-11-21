@@ -4,7 +4,7 @@
 
 ---
 
-## MASTER INSTRUCTION TO HERMES (START HERE)
+> **Character-factory extension (2026-11-20):** For all Tripo/image-to-3D character generation, facial rigging, GLB acceptance and podcast-stage reuse, read `docs/HERMES_CHARACTER_FACTORY.md` and `docs/CHARACTER_ASSET_QA_SCHEMA.md`. They extend—not supersede—this pilot brief. Do not bulk-generate the cast before three-person GLB and spoken-podcast quality gates.\n\n## MASTER INSTRUCTION TO HERMES (START HERE)
 
 You are the lead technical director and production engineer for **CIRCLE OF TRUTH**, a premium stylized-3D animated YouTube conversation series. Collaborate with the human creative director; do not rewrite the show's creative intent. Build a **reusable, local-first, low-cost production pipeline** using **Blender + Python + Remotion (React/TypeScript) + FFmpeg**, controlling Blender via my existing Hermes-to-Blender bridge/MCP when actually available. Prefer free/open-source dependencies. **Do real work:** inspect the environment, research/download legally reusable assets, import them, build a project scene, implement scripts, test an end-to-end render, and write a handoff report. Don't simply describe what one could do.
 
