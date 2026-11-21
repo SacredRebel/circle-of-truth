@@ -1,0 +1,713 @@
+{
+  "source": {
+    "title": "Circle of Truth — Episodic Series",
+    "filename": "Circle of Truth.pdf",
+    "pages": 20,
+    "format": "Original development/pitch deck",
+    "dateLabel": "2026-era concept deck",
+    "status": "historical concept; not independently verified current production"
+  },
+  "identity": {
+    "title": "CIRCLE OF TRUTH",
+    "tagline": "When peace starts dancing it is bliss. In the silence we will sing.",
+    "logline": "A ceremonial, conversation-led documentary experience exploring regeneration of land, body and spirit through live human encounters, ancestral knowledge, healing arts, collective action and a closing Circle of Truth.",
+    "positioning": "The original documentary flagship; preserve distinctly from the newer fictional animated companion series.",
+    "host": "Mark Pancis",
+    "hostDeckDescription": "Funny, charismatic and empathetic medicine man from Romania; host guiding guests through three ceremonial days",
+    "centralPlace": "Awhai / Ojai, California",
+    "world": "Regeneration of land, body and spirit",
+    "sourcePage": 3
+  },
+  "format": {
+    "sourcePage": 3,
+    "proposedEpisodeCount": 15,
+    "sourceRuntimeLanguage": "90 MINUTES",
+    "runtimeAmbiguity": "Original deck says 15 episodes | 90 minutes; verify whether 90 minutes is per episode or a total special before producing published specifications.",
+    "mainGuestCount": 12,
+    "truthTopicsPerEpisode": 2,
+    "livePerformances": "1–2",
+    "regenerativePractices": "1–2",
+    "projectSpotlights": "One collaborative-future project per episode",
+    "ceremonialDays": 3,
+    "closingFormat": "Circle of Truth discussion with 12 people"
+  },
+  "pillars": [
+    {
+      "id": "healing",
+      "title": "Healing arts & embodied practice",
+      "detail": "Traditional and modern healing modalities, including sound, movement, herbal traditions and encounters with practitioners",
+      "sourcePages": [
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "regeneration",
+      "title": "Regeneration & collective action",
+      "detail": "Regenerative farming, soil, community stewardship, land restoration and collaborative projects with practical results",
+      "sourcePages": [
+        3,
+        5,
+        9,
+        16
+      ]
+    },
+    {
+      "id": "dialogue",
+      "title": "Disagreement into understanding",
+      "detail": "Live real-time conversation with public figures, healers and everyday people; agree to disagree while seeking common humanity",
+      "sourcePages": [
+        5,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "culture",
+      "title": "Ceremony, creativity & music",
+      "detail": "Songs, dance, art, story, silence, performance and ritual expression as part of the cultural format",
+      "sourcePages": [
+        4,
+        7,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Ancient wisdom meets new systems",
+      "detail": "AI ethics, regenerative technology, alternative futures and the distinction drawn in the deck between artificial and divine intelligence",
+      "sourcePages": [
+        6,
+        16
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Community partnerships & impact",
+      "detail": "Profiles of regenerative projects, partner participation, education and locally grounded collaboration",
+      "sourcePages": [
+        3,
+        16,
+        17,
+        19
+      ]
+    }
+  ],
+  "acts": [
+    {
+      "number": 1,
+      "id": "ancient-future",
+      "title": "Ancient Future",
+      "subtitle": "Remembering Our Native Roots",
+      "description": "The historical and cultural context of ceremonial, ritual and sacramental practices, viewed through the lived knowledge of today's practitioners.",
+      "pages": [
+        5
+      ],
+      "themes": [
+        "roots",
+        "ancestry",
+        "ceremony"
+      ]
+    },
+    {
+      "number": 2,
+      "id": "all-our-relations",
+      "title": "All of Our Relations",
+      "subtitle": "Love, respect & belonging",
+      "description": "Honoring ancestors and relations, exploring authentic family dynamics and the choices that bring people closer in an isolated world.",
+      "pages": [
+        5
+      ],
+      "themes": [
+        "relationships",
+        "respect",
+        "family"
+      ]
+    },
+    {
+      "number": 3,
+      "id": "regeneration-collaboration",
+      "title": "Regeneration & Collaboration",
+      "subtitle": "From vision to collective action",
+      "description": "Regenerative experts build an actionable direction to restore ourselves, one another and the earth through practical stewardship.",
+      "pages": [
+        5
+      ],
+      "themes": [
+        "land",
+        "collaboration",
+        "impact"
+      ]
+    },
+    {
+      "number": 4,
+      "id": "sacred-rebellion",
+      "title": "Sacred Rebellion",
+      "subtitle": "The courage to question",
+      "description": "Revisit the role of disruptors, agitators and visionary community builders who pursue a future of love and compassion.",
+      "pages": [
+        5
+      ],
+      "themes": [
+        "courage",
+        "culture",
+        "responsibility"
+      ]
+    },
+    {
+      "number": 5,
+      "id": "quantum-reality",
+      "title": "Quantum Reality",
+      "subtitle": "Ancient meets emergent",
+      "description": "Explore the deck's proposed dialogue between ancient practices, contemporary thinking and solutions for collective futures.",
+      "pages": [
+        6
+      ],
+      "themes": [
+        "inquiry",
+        "consciousness",
+        "future"
+      ]
+    },
+    {
+      "number": 6,
+      "id": "divine-union",
+      "title": "Honoring the Divine Masculine & Feminine",
+      "subtitle": "Relationship as conscious practice",
+      "description": "Examine partnership, union, gendered archetypes and the diverse stories people use to understand intimacy and personal growth.",
+      "pages": [
+        6
+      ],
+      "themes": [
+        "relationships",
+        "balance",
+        "love"
+      ]
+    },
+    {
+      "number": 7,
+      "id": "sacred-body",
+      "title": "Our Bodies, Our Sacred Temple",
+      "subtitle": "Presence in the living body",
+      "description": "An exploration of practices rooted in caring for the body, movement and embodiment. Claims about efficacy require separate evidence.",
+      "pages": [
+        6
+      ],
+      "themes": [
+        "body",
+        "movement",
+        "health"
+      ]
+    },
+    {
+      "number": 8,
+      "id": "ai-ethics",
+      "title": "AI & the Ethics of Illusion",
+      "subtitle": "Technology, agency & perception",
+      "description": "A proposed conversation about Artificial Intelligence, the deck's Divine Intelligence framing, illusion and tools for regeneratively minded systems.",
+      "pages": [
+        6
+      ],
+      "themes": [
+        "AI",
+        "ethics",
+        "future"
+      ]
+    }
+  ],
+  "guests": [
+    {
+      "id": "original-guest-01",
+      "sourceSpelling": "Jim Carrey",
+      "name": "Jim Carrey",
+      "domain": "Film / comedy",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-02",
+      "sourceSpelling": "Joe Rogen",
+      "name": "Joe Rogan",
+      "domain": "Media / podcast",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-03",
+      "sourceSpelling": "Jason Mamoa",
+      "name": "Jason Momoa",
+      "domain": "Film / environment",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-04",
+      "sourceSpelling": "Will Smith",
+      "name": "Will Smith",
+      "domain": "Film / entertainment",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-05",
+      "sourceSpelling": "Elon Musk",
+      "name": "Elon Musk",
+      "domain": "Technology",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-06",
+      "sourceSpelling": "The Rock",
+      "name": "Dwayne Johnson",
+      "domain": "Film / business",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-07",
+      "sourceSpelling": "Rosario Dawson",
+      "name": "Rosario Dawson",
+      "domain": "Film / activism",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-08",
+      "sourceSpelling": "Margot Robbie",
+      "name": "Margot Robbie",
+      "domain": "Film / production",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-09",
+      "sourceSpelling": "Angelina Jolie",
+      "name": "Angelina Jolie",
+      "domain": "Film / humanitarian",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-10",
+      "sourceSpelling": "Mark Wahlberg",
+      "name": "Mark Wahlberg",
+      "domain": "Film / production",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-11",
+      "sourceSpelling": "Alicia Keys",
+      "name": "Alicia Keys",
+      "domain": "Music",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-12",
+      "sourceSpelling": "Willow Smith",
+      "name": "Willow Smith",
+      "domain": "Music",
+      "sourcePage": 7,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-13",
+      "sourceSpelling": "Taita Juanito",
+      "name": "Taita Juanito",
+      "domain": "Ceremonial / community",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-14",
+      "sourceSpelling": "Mama Ali",
+      "name": "Mama Ali",
+      "domain": "Community / spiritual",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-15",
+      "sourceSpelling": "Donald Trump",
+      "name": "Donald Trump",
+      "domain": "Government / public figure",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-16",
+      "sourceSpelling": "Ian Somerholder",
+      "name": "Ian Somerhalder",
+      "domain": "Film / environment",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-17",
+      "sourceSpelling": "Dr. Joe Dispenza",
+      "name": "Joe Dispenza",
+      "domain": "Author / speaker",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-18",
+      "sourceSpelling": "Mark Cuban",
+      "name": "Mark Cuban",
+      "domain": "Business / media",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-19",
+      "sourceSpelling": "Sadghuru",
+      "name": "Sadhguru",
+      "domain": "Spiritual teacher",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-20",
+      "sourceSpelling": "Leonardo Di Caprio",
+      "name": "Leonardo DiCaprio",
+      "domain": "Film / environment",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-21",
+      "sourceSpelling": "Phil Lane Jr.",
+      "name": "Phil Lane Jr.",
+      "domain": "Indigenous community leadership",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-22",
+      "sourceSpelling": "vandanashiva",
+      "name": "Vandana Shiva",
+      "domain": "Environmental activism",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-23",
+      "sourceSpelling": "Amma",
+      "name": "Amma",
+      "domain": "Spiritual teacher",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    },
+    {
+      "id": "original-guest-24",
+      "sourceSpelling": "Snoop Dogg",
+      "name": "Snoop Dogg",
+      "domain": "Music / entertainment",
+      "sourcePage": 8,
+      "status": "potential / not confirmed",
+      "castMatchPolicy": "Match canonical character name or explicit alias; never duplicate a person based on spelling alone."
+    }
+  ],
+  "production": {
+    "pages": [
+      9,
+      10,
+      15
+    ],
+    "location": {
+      "deckName": "Awhai / Ojai",
+      "region": "California, USA",
+      "status": "proposed production location",
+      "historicalContext": "Deck describes Ojai's spiritual and regenerative culture. Specific historical, Indigenous and geographic claims need research and community review."
+    },
+    "cadence": {
+      "mode": "Full-moon recordings",
+      "years": "2026–2027",
+      "newMoonSupplement": "New-moon retreat content and behind-the-scenes",
+      "status": "historical plan; schedule not confirmed",
+      "originalMilestones": [
+        "Applications and team auditions: January 2026 (deck plan)",
+        "Pilot and kickoff: Spring 2026 (deck plan)",
+        "Full-moon recording cycle: 2026–2027 (deck plan)"
+      ]
+    },
+    "team": [
+      {
+        "name": "Mark Pancis",
+        "role": "Host & Director",
+        "status": "listed in deck",
+        "sourcePage": 10
+      },
+      {
+        "name": "Kim Dudine",
+        "role": "Host, Director & Writer",
+        "status": "listed in deck",
+        "sourcePage": 10
+      },
+      {
+        "name": "D. Todd Shepherd",
+        "role": "Executive Producer",
+        "status": "listed in deck",
+        "sourcePage": 10
+      },
+      {
+        "name": "Jonathan Braniff",
+        "role": "Co-Producer",
+        "status": "listed in deck",
+        "sourcePage": 10
+      },
+      {
+        "name": "Chris Farley",
+        "role": "Senior Editor",
+        "status": "listed in deck; identity not independently verified",
+        "sourcePage": 10
+      },
+      {
+        "name": "Josh Gobbell",
+        "role": "Director of Photography",
+        "status": "listed in deck",
+        "sourcePage": 10
+      },
+      {
+        "name": "Darius Fisher",
+        "role": "Lead Editor",
+        "status": "listed in deck",
+        "sourcePage": 10
+      },
+      {
+        "name": "Brian Vecchio",
+        "role": "Business Development",
+        "status": "listed in deck",
+        "sourcePage": 10
+      },
+      {
+        "name": "JEMS",
+        "role": "Style, Costume, Spaces",
+        "status": "listed in deck",
+        "sourcePage": 10
+      },
+      {
+        "name": "Mike Meyer",
+        "role": "Lawyer",
+        "status": "listed in deck",
+        "sourcePage": 10
+      },
+      {
+        "name": "Jerry Bruckheimer",
+        "role": "Potential Lead Producer",
+        "status": "potential only; NOT a confirmed team member",
+        "sourcePage": 10
+      }
+    ]
+  },
+  "distribution": {
+    "sourcePage": 12,
+    "channels": [
+      {
+        "name": "YouTube",
+        "role": "Proposed full-length episodes on LightBody Love / partners"
+      },
+      {
+        "name": "Rumble",
+        "role": "Proposed live components"
+      },
+      {
+        "name": "Linear & OTT",
+        "role": "Proposed full-length release window or premiere"
+      },
+      {
+        "name": "Social",
+        "role": "Proposed short-form cutdowns, featurettes and partner media on TikTok, Instagram, Meta"
+      }
+    ],
+    "status": "distribution strategy in original deck, not binding deals"
+  },
+  "business": {
+    "sources": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "plan": {
+      "pilotBudgetUSD": 1100000,
+      "pilotShows": 3,
+      "pilotWindow": "Q2–Q3 2026 (historical pitch; not current schedule)",
+      "remainingSeriesBudget": "TBD",
+      "story": "Pilot fundraising and documentary production could combine sponsor participation, memberships, selected brand partners and impact projects.",
+      "status": "original proposal only; funding NOT verified"
+    },
+    "packages": [
+      {
+        "amountUSD": 50000,
+        "headline": "Founding Participation",
+        "benefits": [
+          "Product placement / mention",
+          "Website partner feature",
+          "Attendance at one show production"
+        ],
+        "status": "historical draft offer, not active pricing"
+      },
+      {
+        "amountUSD": 100000,
+        "headline": "Premier Circle Access",
+        "benefits": [
+          "Full-moon Circle of Truth access",
+          "2–5 minute brand moment",
+          "Surrounding media",
+          "Annual Silver membership"
+        ],
+        "status": "historical draft offer, not active pricing"
+      },
+      {
+        "amountUSD": 250000,
+        "headline": "Executive Producer Circle",
+        "benefits": [
+          "Proposed show credit",
+          "Annual Gold membership",
+          "Ambassador recognition",
+          "Special contribution access"
+        ],
+        "status": "historical draft offer, not active pricing"
+      },
+      {
+        "amountUSD": 500000,
+        "headline": "Series Partner",
+        "benefits": [
+          "Proposed series sponsor",
+          "Annual Platinum membership",
+          "Legacy recognition"
+        ],
+        "status": "historical draft offer, not active pricing"
+      },
+      {
+        "amountUSD": 1000000,
+        "headline": "Regenerative Legacy",
+        "benefits": [
+          "Proposed 1,000-community impact model",
+          "Special marketing relationship",
+          "Impact assessment framework"
+        ],
+        "status": "historical draft offer, not active pricing"
+      }
+    ],
+    "additionalVision": [
+      "One Prophecy — The Ancient Now docufilmography",
+      "Land and community regeneration as a media narrative",
+      "Lemuria / Black Mountain Indigenous University concept",
+      "Alternative documentary funding, partner placement and potential shared ownership models"
+    ],
+    "qualityCautions": [
+      "Large audience-size or tax-deductibility claims are not verified",
+      "Investor/tax advantages require professional review",
+      "No benefit, credit, fundraising campaign, or project ownership represented as active"
+    ]
+  },
+  "referenceVisuals": {
+    "pages": [
+      1,
+      4,
+      9,
+      13,
+      14,
+      15
+    ],
+    "keywords": [
+      "fire and ember silhouette",
+      "deep ink blue and warm copper",
+      "ancient temple at golden dawn",
+      "silence and space",
+      "interlocking hands and community circles",
+      "textured materials and landscapes",
+      "subtle sacred geometry",
+      "high-contrast editorial film typography"
+    ],
+    "rightsNote": "Moodboard photos and contact details inside the PDF are not presumed licensed for public website republication."
+  },
+  "provenance": [
+    {
+      "section": "High-level format and host",
+      "pages": [
+        3
+      ]
+    },
+    {
+      "section": "Eight-act structure",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    {
+      "section": "Twenty-four potential guests",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    {
+      "section": "Proposed Ojai location and team",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "section": "Distribution strategy",
+      "pages": [
+        12
+      ]
+    },
+    {
+      "section": "Art direction",
+      "pages": [
+        1,
+        4,
+        13,
+        14
+      ]
+    },
+    {
+      "section": "Full-moon production timeline",
+      "pages": [
+        15
+      ]
+    },
+    {
+      "section": "Phases, pilot budget and partner programs",
+      "pages": [
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ]
+}
