@@ -21,7 +21,7 @@ This repository unites the original 20-page *live ceremonial documentary pitch* 
 
 The raw uploaded `Circle of Truth.pdf` is **not public in this repo**, because it includes contact details and unverified rights to mood-board photography; its page-grounded data and status notes are preserved above.
 
-## Start here
+**Character and 3D scene pipeline:** [Hermes Character Factory](docs/HERMES_CHARACTER_FACTORY.md) · [Character GLB Quality Contract](docs/CHARACTER_ASSET_QA_SCHEMA.md). These documents specify the Tripo → Blender → facial rig → GLB → podcast scene workflow and staged production approvals.\n\n## Start here
 
 - **Premiere homepage** — premium cinematic film launch site with fire-and-circle opening art
 - **Original Series** — founding documentary format, historical host and crew roster, live distribution plan
