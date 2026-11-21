@@ -1,11 +1,13 @@
 {
   "meta": {
     "name": "Circle of Truth",
-    "subtitle": "A conversation beyond the noise.",
-    "projectType": "Fictional stylized-3D animated YouTube roundtable",
+    "subtitle": "One circle. Two worlds. A conversation beyond the noise.",
+    "projectType": "Live documentary flagship + fictional animated companion; multi-format series development",
     "lastCurated": "2026-11-20",
-    "status": "Pre-production / cast & concept development",
-    "publicDisclosure": "A fictional animated series. The portrayed people and historical or spiritual figures are imaginative representations. Dialogue, events and voices are invented or AI-assisted; they do not depict real meetings or statements, and no endorsement is implied."
+    "status": "Two-track development — founding documentary pitch archived; animated pilot storyboard in progress",
+    "publicDisclosure": "The original live docuseries is a historical concept, not confirmed production. The companion animated series uses clearly fictional portrayals and invented dialogue; no endorsement or real-world encounter is implied.",
+    "originalDeckIntegrated": true,
+    "originalDeckSource": "Circle of Truth.pdf (20 pages; user-provided; not public)"
   },
   "themes": [
     "truth",
@@ -291,12 +293,18 @@
         "pilot-cast"
       ],
       "tags": [
-        "Spiritual / Politics"
+        "Spiritual / Politics",
+        "Original series wishlist"
       ],
       "id": "char-003",
       "status": "priority",
       "approval": "casting/reference only",
-      "voice": "original actor or licensed TTS; never imitate real voice"
+      "voice": "original actor or licensed TTS; never imitate real voice",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "Donald Trump",
+        "confirmation": "potential / unconfirmed"
+      }
     },
     {
       "name": "Elon Musk",
@@ -305,12 +313,18 @@
         "pilot-cast"
       ],
       "tags": [
-        "Spiritual / Politics"
+        "Spiritual / Politics",
+        "Original series wishlist"
       ],
       "id": "char-004",
       "status": "priority",
       "approval": "casting/reference only",
-      "voice": "original actor or licensed TTS; never imitate real voice"
+      "voice": "original actor or licensed TTS; never imitate real voice",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "Elon Musk",
+        "confirmation": "potential / unconfirmed"
+      }
     },
     {
       "name": "Siddhartha Gautama (Buddha)",
@@ -795,12 +809,18 @@
         "hollywood-superstars-ii"
       ],
       "tags": [
-        "Hollywood"
+        "Hollywood",
+        "Original series wishlist"
       ],
       "id": "char-039",
       "status": "roster",
       "approval": "casting/reference only",
-      "voice": "original actor or licensed TTS; never imitate real voice"
+      "voice": "original actor or licensed TTS; never imitate real voice",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "Margot Robbie",
+        "confirmation": "potential / unconfirmed"
+      }
     },
     {
       "name": "Ryan Reynolds",
@@ -1607,12 +1627,18 @@
         "previously-featured"
       ],
       "tags": [
-        "Archive"
+        "Archive",
+        "Original series wishlist"
       ],
       "id": "char-097",
       "status": "roster",
       "approval": "casting/reference only",
-      "voice": "original actor or licensed TTS; never imitate real voice"
+      "voice": "original actor or licensed TTS; never imitate real voice",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "Leonardo Di Caprio",
+        "confirmation": "potential / unconfirmed"
+      }
     },
     {
       "name": "Dwayne Johnson",
@@ -1621,12 +1647,18 @@
         "previously-featured"
       ],
       "tags": [
-        "Archive"
+        "Archive",
+        "Original series wishlist"
       ],
       "id": "char-098",
       "status": "roster",
       "approval": "casting/reference only",
-      "voice": "original actor or licensed TTS; never imitate real voice"
+      "voice": "original actor or licensed TTS; never imitate real voice",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "The Rock",
+        "confirmation": "potential / unconfirmed"
+      }
     },
     {
       "name": "Brad Pitt",
@@ -1683,6 +1715,329 @@
       "status": "roster",
       "approval": "casting/reference only",
       "voice": "original actor or licensed TTS; never imitate real voice"
+    },
+    {
+      "id": "char-103",
+      "name": "Jim Carrey",
+      "role": "Film / comedy; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "Jim Carrey",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-104",
+      "name": "Joe Rogan",
+      "role": "Media / podcast; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "Joe Rogen",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-105",
+      "name": "Jason Momoa",
+      "role": "Film / environment; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "Jason Mamoa",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-106",
+      "name": "Will Smith",
+      "role": "Film / entertainment; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "Will Smith",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-107",
+      "name": "Rosario Dawson",
+      "role": "Film / activism; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "Rosario Dawson",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-108",
+      "name": "Angelina Jolie",
+      "role": "Film / humanitarian; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "Angelina Jolie",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-109",
+      "name": "Mark Wahlberg",
+      "role": "Film / production; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "Mark Wahlberg",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-110",
+      "name": "Alicia Keys",
+      "role": "Music; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "Alicia Keys",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-111",
+      "name": "Willow Smith",
+      "role": "Music; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 7,
+        "spelling": "Willow Smith",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-112",
+      "name": "Taita Juanito",
+      "role": "Ceremonial / community; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "Taita Juanito",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-113",
+      "name": "Mama Ali",
+      "role": "Community / spiritual; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "Mama Ali",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-114",
+      "name": "Ian Somerhalder",
+      "role": "Film / environment; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "Ian Somerholder",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-115",
+      "name": "Joe Dispenza",
+      "role": "Author / speaker; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "Dr. Joe Dispenza",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-116",
+      "name": "Mark Cuban",
+      "role": "Business / media; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "Mark Cuban",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-117",
+      "name": "Sadhguru",
+      "role": "Spiritual teacher; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "Sadghuru",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-118",
+      "name": "Phil Lane Jr.",
+      "role": "Indigenous community leadership; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "Phil Lane Jr.",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-119",
+      "name": "Vandana Shiva",
+      "role": "Environmental activism; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "vandanashiva",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-120",
+      "name": "Amma",
+      "role": "Spiritual teacher; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "Amma",
+        "confirmation": "potential / unconfirmed"
+      }
+    },
+    {
+      "id": "char-121",
+      "name": "Snoop Dogg",
+      "role": "Music / entertainment; potential original-series guest",
+      "collections": [],
+      "tags": [
+        "Original series wishlist"
+      ],
+      "status": "proposal",
+      "approval": "Guest wishlist only — no invitation/appearance confirmed",
+      "voice": "No synthetic imitation or recording without authorization",
+      "originalSourceGuest": {
+        "page": 8,
+        "spelling": "Snoop Dogg",
+        "confirmation": "potential / unconfirmed"
+      }
     }
   ],
   "episodes": [
