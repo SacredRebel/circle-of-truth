@@ -25,6 +25,8 @@
 
 ---
 
+**Verified repo shortlist and tool safety:** `docs/HERMES_GITHUB_3D_TOOLS_REVIEW.md` (9 GitHub projects; prioritize AssetFurnace and img2threejs, benchmark Wonder3D, use DepthFlow only for 2.5D marketing). Investigate compatibility and licenses before installing anything.
+
 ## 0. Immediate first response and assumptions
 
 Ask: **"What absolute local path should contain the Circle of Truth production directory?"** This is a hard prerequisite from the existing Hermes brief.
