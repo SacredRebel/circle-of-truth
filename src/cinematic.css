@@ -258,3 +258,37 @@ body.cinematic-mode::before{display:none}
 @media(max-width:420px){.f-hero h1{font-size:67px}.f-hero-home{min-height:780px}.f-format-copy h3{font-size:40px}.f-guest-grid{grid-template-columns:1fr}.f-person-box{min-height:210px}.f-crew-grid{grid-template-columns:1fr}.f-package-grid{grid-template-columns:1fr}.f-act-select-grid{grid-template-columns:1fr 1fr}.f-act-choice strong{font-size:21px}.f-footer{grid-template-columns:1fr}.f-footer-primary{grid-column:1}.f-footer-brand{font-size:34px}.f-stats-grid{grid-template-columns:1fr 1fr}}
 @media(prefers-reduced-motion:reduce){.film-site *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media print{.f-header,.f-mobile-nav,.f-footer{display:none}.film-site{background:white;color:black}.f-section{padding:35px 15px}.f-page-heading{background:white;color:#111;min-height:0;padding:35px 15px}.f-page-heading h1,.f-section h2{color:#000}.f-hero{page-break-after:always}}
+
+
+/* Season board, original distribution pathways, restrained cinematic motion */
+.f-distribution-section{border-top:1px solid var(--film-line);background:linear-gradient(145deg,#101720,#0a0e14);max-width:none;}
+.f-distribution-section>.f-section-head,.f-distribution-section>.f-distribution-grid,.f-distribution-section>.f-smallnote{max-width:1454px;margin-left:auto;margin-right:auto}
+.f-distribution-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.f-distribution-card{min-height:245px;border:1px solid var(--film-line);background:linear-gradient(145deg,#1e272e,#10161d);padding:31px 25px}
+.f-distribution-card h3{font:500 42px/.92 'Cormorant Garamond',serif;margin:28px 0 16px;color:#f0dfc5}
+.f-distribution-card p{font-size:12px;color:#9ca6b2;line-height:1.8}
+.f-season-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.f-season-episode{padding:26px 26px 30px;min-height:298px;display:flex;flex-direction:column;position:relative;background:linear-gradient(155deg,#1c252e,#0d141c);border:1px solid var(--film-line);overflow:hidden}
+.f-season-episode:after{content:'◯';position:absolute;right:-14px;top:28px;font:300 162px 'Cormorant Garamond',serif;color:#d6a16a12;pointer-events:none}
+.f-season-top{display:flex;justify-content:space-between;gap:13px;color:#c9a172;font-weight:700;font-size:10px;letter-spacing:.11em}
+.f-season-top b{color:#8d9ba6;font-size:9px;font-weight:500}
+.f-season-episode>strong{font:400 74px/.82 'Cormorant Garamond',serif;color:#b38857;opacity:.67;margin-top:40px}
+.f-season-episode h3{font:500 29px/.95 'Cormorant Garamond',serif;color:#f0e6d6;margin:15px 0 7px}
+.f-season-episode p{font-size:11px;color:#a0a9b4;line-height:1.65}
+.f-season-episode>a{margin-top:auto;padding-top:15px;font-size:10px;letter-spacing:.1em;font-weight:700;color:#d7ad7c}
+.f-episode-blocks{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-bottom:38px}
+.f-episode-blocks article{display:flex;gap:22px;align-items:flex-start;border-bottom:1px solid var(--film-line);padding:17px 8px}
+.f-episode-blocks span{font:500 26px 'Cormorant Garamond',serif;color:#c79662}
+.f-episode-blocks p{color:#bcc1c8;font-size:13px;line-height:1.65;margin:4px 0}
+@keyframes f-breathe{0%{transform:scale(1);filter:brightness(.95)}100%{transform:scale(1.045);filter:brightness(1.07)}}
+@keyframes f-rise{from{opacity:0;transform:translateY(23px)}to{opacity:1;transform:translateY(0)}}
+@keyframes f-sigil-breathe{0%{opacity:.10;transform:translate(-50%,-50%) rotate(-2deg)}100%{opacity:.17;transform:translate(-50%,-50%) rotate(3deg)}}
+@media(prefers-reduced-motion:no-preference){
+ .f-hero-home .f-fire-art,.f-origin-hero .f-fire-art,.f-impact-hero .f-fire-art{animation:f-breathe 21s ease-in-out infinite alternate;transform-origin:65% 65%}
+ .f-hero-copy,.f-subhero-copy,.f-page-heading>*{animation:f-rise .9s var(--film-ease) both}
+ .f-floating-sigil{animation:f-sigil-breathe 17s ease-in-out infinite alternate}
+ .f-tree-hero-visual img{animation:f-breathe 18s ease-in-out infinite alternate}
+}
+@media(max-width:1080px){.f-distribution-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.f-distribution-grid{grid-template-columns:1fr 1fr}.f-distribution-card{padding:24px 18px;min-height:230px}.f-distribution-card h3{font-size:33px}.f-season-grid,.f-episode-blocks{grid-template-columns:repeat(2,1fr)}.f-season-episode{min-height:255px;padding:20px}.f-season-episode>strong{font-size:60px}.f-season-episode h3{font-size:25px}.f-episode-blocks article{gap:12px}}
+@media(max-width:440px){.f-distribution-grid,.f-season-grid,.f-episode-blocks{grid-template-columns:1fr}.f-season-episode{min-height:245px}}
